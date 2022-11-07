@@ -1,7 +1,9 @@
+import './styles/components/app.sass';
+
 function App() {
 
   return (
-    <div className="App">
+    <div id="Portfolio">
       <h1>React + SASS</h1>
     </div>
   )
