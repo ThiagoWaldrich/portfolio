@@ -1,7 +1,7 @@
 import Avatar from '../img/eu.png';
 import "../styles/components/sidebar.sass";
 import SocialNetworks from './SocialNetwork';
-import InformationContainer from './informationContainer';
+import InformationContainer from './InformationContainer';
 
 const Sidebar= () =>{
     return(<aside id="sidebar">
