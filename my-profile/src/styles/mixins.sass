@@ -2,13 +2,18 @@
 
 @mixin center
     display: flex
-    justify-content: center 
-    align-items: center 
+    justify-content: center
+    align-items: center
 
-
-@mixin btn 
+@mixin btn
     padding: 1rem 1.2rem
     color: variables.$text-color
     background: variables.$gradient
-    text-decoration: none 
+    text-decoration: none
     border-radius: 3rem
+
+@mixin gradient-border
+    content: ""
+    background: variables.$gradient
+    width: 30%
+    height: 3px

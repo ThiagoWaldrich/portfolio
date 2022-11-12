@@ -1,11 +1,14 @@
 import "../styles/components/maincontent.sass";
+import AboutContainer from "./AboutContainer";
+import Projects from "./Projects";
+import TechnologiesContainer from "./TechnologiesContainer";
 
 const MainContent = () =>{
     return(
         <main id= "main-content">
-            <p>About</p>
-            <p>Tecnolgias</p>
-            <p>Projects</p>
-            </main>
+            <AboutContainer/>
+            <TechnologiesContainer/>
+            <Projects/>
+        </main>
 )}
-export default MainContent
+export default MainContent;
